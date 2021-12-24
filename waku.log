@@ -1,0 +1,1744 @@
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.12.16)  24 DEC 2021 10:11
+ restricted system commands enabled.
+ file:line:error style messages enabled.
+**waku.cls
+(./waku.cls
+LaTeX2e <2021-11-15> patch level 1
+Lua module: luaotfload 2021-05-21 3.18 Lua based OpenType font support
+Lua module: lualibs 2021-05-20 2.74 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2021-05-20 2.74 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "/Users/hitomisan/Library/texlive/20
+21/texmf-var/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2021-05-20.lua" from kpse-res
+olved path "/usr/local/texlive/2021/texmf-dist/tex/luatex/luaotfload/fontloader-
+2021-05-20.lua".
+Lua-only attribute luaotfload@noligature = 1
+Lua-only attribute luaotfload@syllabe = 2
+luaotfload | init : Context OpenType loader version 3.116
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 3
+luaotfload | conf : Root cache directory is "/Users/hitomisan/Library/texlive/20
+21/texmf-var/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
+Inserting `luaotfload.harf.finalize_vlist' at position 1 in `post_linebreak_filt
+er'.
+Inserting `luaotfload.harf.finalize_hlist' at position 2 in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' at position 1 in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' at position 1 in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' at position 1 in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 4
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
+t'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
+. L3 programming layer <2021-11-22>
+Inserting `tracingstacklevels' at position 1 in `input_level_string'.
+
+LaTeX Warning: You have requested package `',
+               but the package provides `waku'.
+
+Package: waku 2021/12/23
+(/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls
+Document Class: jlreq 2021/11/05 jlreq
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-11-22 L3 programming layer (loader) 
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2021-12-14 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count181
+\l__pdf_internal_box=\box50
+))
+Package: l3keys2e 2021-11-12 LaTeX2e option processing using LaTeX3 keys
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count182
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq-helpers.sty
+Package: jlreq-helpers 2021/08/12 jlreq-helpers
+\jlreq@tempcnta=\count183
+\jlreq@tempcntb=\count184
+\jlreq@tempcntc=\count185
+\jlreq@tempdima=\dimen137
+\jlreq@tempdimb=\dimen138
+\jlreq@tempdimc=\dimen139
+\jlreq@tempskipa=\skip47
+\jlreq@tempskipb=\skip48
+\jlreq@tempskipc=\skip49
+\jlreq@tempboxa=\box51
+\jlreq@tempboxb=\box52
+\jlreq@tempboxc=\box53
+\jlreq@resultdimen=\dimen140
+\jlreq@resultskip=\skip50
+\jlreq@resultbox=\box54
+\jlreq@resultcnt=\count186
+\jlreq@reference@count=\count187
+\jlreq@currentpage=\count188
+)
+\l_jlreq_tmpa_dim=\dimen141
+\l_jlreq_tmpa_skip=\skip51
+\l_jlreq_tmpa_box=\box55
+\l_jlreq_tmpb_box=\box56
+\l_jlreq_tmpc_box=\box57
+
+jlreq guessed engine: lualatex
+(/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/luatexja.sty
+Package: luatexja 2021-10-24 Japanese Typesetting with Lua(La)TeX
+
+(/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/luatexja-core.sty
+Package: luatexja-core 2021-05-21 Core of LuaTeX-ja
+
+(/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
+
+(/usr/local/texlive/2021/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
+Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
+\@catcodetablestackcnt=\count189
+)
+\CatcodeTableOther=\catcodetable12
+\CatcodeTableExpl=\catcodetable13
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks16
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks17
+\XKV@tempa@toks=\toks18
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count190
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/everyhook/everyhook.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/svn-prov/svn-prov.sty
+Package: svn-prov 2010/04/24 v3.1862 Package Date/Version from SVN Keywords
+)
+Package: everyhook 2014/11/26 v1.2 (SVN Rev: 12)\ Hooks for low level TeX every
+X primitives.
+\everypar=\toks19
+\frozen@everymath=\toks20
+\frozen@everydisplay=\toks21
+\everyhbox=\toks22
+\everyvbox=\toks23
+\everycr=\toks24
+)
+\ltjlineendcomment=\count191
+\ltj@dimen@zw=\dimen142
+\ltj@dimen@zh=\dimen143
+\ltj@dimen@jQ=\dimen144
+\ltj@icflag=\attribute5
+\ltj@curjfnt=\attribute6
+\ltj@curtfnt=\attribute7
+\ltj@charclass=\attribute8
+\ltj@charcode=\attribute9
+\ltj@autospc=\attribute10
+\ltj@autoxspc=\attribute11
+\ltj@yablshift=\attribute12
+\ltj@ykblshift=\attribute13
+\ltj@tablshift=\attribute14
+\ltj@tkblshift=\attribute15
+\jfam=\attribute16
+\ltj@vert@ori=\attribute17
+\ltj@dir=\attribute18
+\ltj@@japanese=\language2
+\ltj@tempcnta=\count192
+\ltj@kcat0=\attribute19
+\ltj@kcat1=\attribute20
+\ltj@kcat2=\attribute21
+\ltj@kcat3=\attribute22
+\ltj@kcat4=\attribute23
+\ltj@kcat5=\attribute24
+\ltj@kcat6=\attribute25
+Custom whatsit inhibitglue = 1
+Custom whatsit stack_marker = 2
+Custom whatsit begin_par = 3
+Custom whatsit direction = 4
+Custom whatsit box_boundary = 5
+Custom whatsit ja_al_boundary = 6(load cache: ltj-cid-auto-adobe-japan1.luc)
+Lua module: luatexja.charrange 2020-07-30 Handling the range of Japanese charact
+ers
+Lua module: luatexja.stack 2020-07-30 LuaTeX-ja stack system
+Inserting `ltj.create_dir_whatsit' at position 3 in `hpack_filter'.
+Inserting `ltj.create_dir_whatsit' at position 2 in `post_linebreak_filter'.
+Inserting `ltj.direction' at position 1 in `vpack_filter'.
+Inserting `ltj.direction' at position 1 in `pre_output_filter'.
+Inserting `ltj.lineskip' at position 3 in `post_linebreak_filter'.
+Inserting `ltj.lineskip' at position 1 in `append_to_vlist_filter'.
+Lua module: luatexja.jfont 2021-09-18 Loader for Japanese fonts
+Removing  `luaotfload.define_font' from `define_font'.
+Inserting `luatexja.font_callback' at position 1 in `define_font'.
+Removing  `luaotfload.aux.set_sscale_dimens' from `luaotfload.patch_font'.
+Removing  `luaotfload.aux.set_font_index' from `luaotfload.patch_font'.
+Removing  `luaotfload.aux.patch_cambria_domh' from `luaotfload.patch_font'.
+Removing  `luaotfload.aux.set_capheight' from `luaotfload.patch_font'.
+Removing  `luaotfload.aux.set_xheight' from `luaotfload.patch_font'.
+Removing  `luaotfload.rewrite_fontname' from `luaotfload.patch_font'.
+Inserting `ltj.prepare_extra_data' at position 1 in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 2 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.set_font_index' at position 3 in `luaotfload.patch_fon
+t'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 4 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.set_capheight' at position 5 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.aux.set_xheight' at position 6 in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' at position 7 in `luaotfload.patch_font'
+.
+Inserting `ltj.prepare_extra_data' at position 1 in `luatexja.define_font'.
+Inserting `ltj.get_vert_form' at position 1 in `luatexja.define_jfont'.
+Removing  `ltj.prepare_extra_data' from `luaotfload.patch_font'.
+Removing  `luaotfload.aux.set_sscale_dimens' from `luaotfload.patch_font'.
+Removing  `luaotfload.aux.set_font_index' from `luaotfload.patch_font'.
+Removing  `luaotfload.aux.patch_cambria_domh' from `luaotfload.patch_font'.
+Removing  `luaotfload.aux.set_capheight' from `luaotfload.patch_font'.
+Removing  `luaotfload.aux.set_xheight' from `luaotfload.patch_font'.
+Removing  `luaotfload.rewrite_fontname' from `luaotfload.patch_font'.
+Inserting `ltj.supply_tounicode' at position 1 in `luaotfload.patch_font'.
+Inserting `ltj.prepare_extra_data' at position 2 in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 3 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.set_font_index' at position 4 in `luaotfload.patch_fon
+t'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 5 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.set_capheight' at position 6 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.aux.set_xheight' at position 7 in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' at position 8 in `luaotfload.patch_font'
+.
+Inserting `ltj.process_input_buffer' at position 1 in `process_input_buffer'.
+Inserting `ltj.hyphenate' at position 1 in `hyphenate'.
+Removing  `luaotfload.node_processor' from `hpack_filter'.
+Removing  `luaotfload.harf.finalize_hlist' from `hpack_filter'.
+Removing  `ltj.create_dir_whatsit' from `hpack_filter'.
+Inserting `ltj.set_stack_level' at position 1 in `hpack_filter'.
+Inserting `luaotfload.node_processor' at position 2 in `hpack_filter'.
+Inserting `luaotfload.harf.finalize_hlist' at position 3 in `hpack_filter'.
+Inserting `ltj.create_dir_whatsit' at position 4 in `hpack_filter'.
+Removing  `luaotfload.node_processor' from `pre_linebreak_filter'.
+Inserting `ltj.set_stack_level' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 2 in `pre_linebreak_filter'.
+Lua module: luatexja.jfmglue 2021-09-18 Insertion process of JFM glues, [x]kanji
+skip and others
+Inserting `luatexja.beginpar.np_info' at position 1 in `luatexja.jfmglue.whatsit
+_getinfo'.
+Inserting `luatexja.beginpar.np_info_after' at position 1 in `luatexja.jfmglue.w
+hatsit_after'.
+Inserting `ltj.mlist_to_hlist_pre' at position 1 in `pre_mlist_to_hlist_filter'.
+Inserting `ltj.main' at position 3 in `pre_linebreak_filter'.
+Removing  `luaotfload.harf.finalize_hlist' from `hpack_filter'.
+Removing  `ltj.create_dir_whatsit' from `hpack_filter'.
+Inserting `ltj.main' at position 3 in `hpack_filter'.
+Inserting `luaotfload.harf.finalize_hlist' at position 4 in `hpack_filter'.
+Inserting `ltj.create_dir_whatsit' at position 5 in `hpack_filter'.
+Removing  `ltj.set_stack_level' from `pre_linebreak_filter'.
+Removing  `luaotfload.node_processor' from `pre_linebreak_filter'.
+Removing  `ltj.main' from `pre_linebreak_filter'.
+Inserting `ltj.adjust_icflag' at position 1 in `pre_linebreak_filter'.
+Inserting `ltj.set_stack_level' at position 2 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 3 in `pre_linebreak_filter'.
+Inserting `ltj.main' at position 4 in `pre_linebreak_filter'.
+Removing  `ltj.set_stack_level' from `hpack_filter'.
+Removing  `luaotfload.node_processor' from `hpack_filter'.
+Removing  `ltj.main' from `hpack_filter'.
+Removing  `luaotfload.harf.finalize_hlist' from `hpack_filter'.
+Removing  `ltj.create_dir_whatsit' from `hpack_filter'.
+Inserting `ltj.adjust_icflag' at position 1 in `hpack_filter'.
+Inserting `ltj.set_stack_level' at position 2 in `hpack_filter'.
+Inserting `luaotfload.node_processor' at position 3 in `hpack_filter'.
+Inserting `ltj.main' at position 4 in `hpack_filter'.
+Inserting `luaotfload.harf.finalize_hlist' at position 5 in `hpack_filter'.
+Inserting `ltj.create_dir_whatsit' at position 6 in `hpack_filter'.
+(/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/ltj-base.sty
+Package: ltj-base 2021-03-16
+\ltj@tempcntb=\count193
+\ltj@tempcntc=\count194
+\ltj@tempdima=\dimen145
+\ltj@afbox=\box58
+)
+\ltj@@italic@inner=\luafunction25
+\ltj@@start@time@measure@inner=\luafunction26
+\ltj@@stop@time@measure@inner=\luafunction27
+\ltj@@jfont@inner=\luafunction28
+\ltj@zw@inner=\luafunction29
+\ltj@zh@inner=\luafunction30
+\ltj@reset@globaldefs@inner=\luafunction31
+\ltj@restore@globaldefs@inner=\luafunction32
+\ltj@@disihb@inner=\luafunction33
+\ltj@@ihb@inner=\luafunction34
+\ltj@@fakeparbegin@inner=\luafunction35
+\ltj@@fakeboxbdd@inner=\luafunction36
+\ltj@@ins@xk@inner=\luafunction37
+\ltj@@ins@k@inner=\luafunction38
+\ltj@@stack=\count195
+\ltj@@group@level=\count196
+\ltjsetkanjiskip@inner=\luafunction39
+\ltjsetxkanjiskip@inner=\luafunction40
+\ltj@@getparam@one@inner=\luafunction41
+\ltj@alljachar@inner=\luafunction42
+\ltj@@lua@populate@insertwhatsit@inner=\luafunction43
+\ltj@@vadjust@dirhook@inner=\luafunction44
+\ltj@@vadjust@check@dir@inner=\luafunction45
+\ltj@@box@dirhook@inner=\luafunction46
+\ltj@@reset@badness@inner=\luafunction47
+\ltj@@lua@raisebox@inner=\luafunction48
+\ltj@@lua@unboxcheckdir@inner=\luafunction49
+(load cache: ltj-kinsoku_default.luc)
+(/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/ltj-latex.sty
+Package: ltj-latex 2021-10-24 LaTeX support of LuaTeX-ja
+Inserting `ltj.direction' at position 1 in `pre_shipout_filter'.
+
+/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/ltj-latex.sty:56: LaTeX 
+Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 \usepackage{
+               lltjfont}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/ltj-latex.sty:57: LaTeX 
+Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 \usepackage{
+               lltjdefs}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/ltj-latex.sty:58: LaTeX 
+Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 \usepackage{
+               lltjcore}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+(/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/patches/lltjp-atbegshi.
+sty
+Package: lltjp-atbegshi 2021-04-29 Patching \shipout hooks for LuaTeX-ja
+\l__platex_shipout_dummy_box=\box59
+)
+(/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/patches/lltjp-geometry.
+sty
+Package: lltjp-geometry 2021-10-24 Patch to geometry for LuaTeX-ja with vertica
+l writing mode
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)))
+\ltj@temp@cctb=\catcodetable14
+)
+(/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/luatexja-compat.sty
+Package: luatexja-compat 2020-08-08 Compatibility with pTeX
+(load cache: ltj-jisx0208.luc)
+\hour=\count197
+\minute=\count198
+))
+(/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/addons/luatexja-adjust.
+sty
+Package: luatexja-adjust 2019-01-06
+\ltjadj@status@le=\count199
+\ltjadj@status@lp=\count266
+\ltjadj@status@pr=\count267
+\ltjadj@status@ls=\count268
+Removing  `ltj.create_dir_whatsit' from `post_linebreak_filter'.
+Removing  `ltj.lineskip' from `post_linebreak_filter'.
+Inserting `Adjust width' at position 2 in `post_linebreak_filter'.
+Inserting `ltj.create_dir_whatsit' at position 3 in `post_linebreak_filter'.
+Inserting `ltj.lineskip' at position 4 in `post_linebreak_filter'.)
+Inserting `luatexja.adjust' at position 1 in `luatexja.adjust_jfmglue'.
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:574: Too many }'s.
+l.574 ...def\jlreq@tombow@adjust{\iftombow -1in \fi}
+                                                  
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:575: Too many }'s.
+l.575   }
+       {
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+\jlreq@current@linewidth=\dimen146
+\jlreq@rest@linewidth=\dimen147
+\jlreq@lastnodechar=\count269
+\jlreq@fontsize=\dimen148
+\jlreq@jafontsize=\dimen149
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:828: Undefined cont
+rol sequence.
+<argument> <->s*[\jlreq@jafontscale ]\ltj@stdmcfont 
+                                         :jfm=jlreq;script=latn;-kern
+l.828 ...j@stdmcfont :jfm=jlreq;script=latn;-kern}{}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:828: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.828 ...j@stdmcfont :jfm=jlreq;script=latn;-kern}{}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:828: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.828 ...j@stdmcfont :jfm=jlreq;script=latn;-kern}{}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:829: Undefined cont
+rol sequence.
+<argument> <->s*[\jlreq@jafontscale ]\ltj@stdgtfont 
+                                         :jfm=jlreq;script=latn;-kern
+l.829 ...j@stdgtfont :jfm=jlreq;script=latn;-kern}{}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:829: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.829 ...j@stdgtfont :jfm=jlreq;script=latn;-kern}{}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:829: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.829 ...j@stdgtfont :jfm=jlreq;script=latn;-kern}{}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:830: Undefined cont
+rol sequence.
+<argument> <->s*[\jlreq@jafontscale ]\ltj@stdmcfont 
+                                         :jfm=jlreqv;script=latn;-kern
+l.830 ...@stdmcfont :jfm=jlreqv;script=latn;-kern}{}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:830: LaTeX Error: 
+Font family `JT3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.830 ...@stdmcfont :jfm=jlreqv;script=latn;-kern}{}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:830: LaTeX Error: 
+Font family `JT3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.830 ...@stdmcfont :jfm=jlreqv;script=latn;-kern}{}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:831: Undefined cont
+rol sequence.
+<argument> <->s*[\jlreq@jafontscale ]\ltj@stdgtfont 
+                                         :jfm=jlreqv;script=latn;-kern
+l.831 ...@stdgtfont :jfm=jlreqv;script=latn;-kern}{}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:831: LaTeX Error: 
+Font family `JT3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.831 ...@stdgtfont :jfm=jlreqv;script=latn;-kern}{}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:831: LaTeX Error: 
+Font family `JT3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.831 ...@stdgtfont :jfm=jlreqv;script=latn;-kern}{}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JY3+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JT3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JT3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JT3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JT3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JT3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JT3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860: LaTeX Error: 
+Font family `JT3+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 }
+     
+(That makes 100 errors; please try again.)
+
+Here is how much of LuaTeX's memory you used:
+ 2656 strings out of 477875
+ 100000,460012 words of node,token memory allocated
+ 544 words of node memory still in use:
+   2 hlist, 1 dir, 3 kern, 1 glyph, 103 attribute, 39 glue_spec, 7 attribute_lis
+t, 1 if_stack, 4 user_defined nodes
+   avail lists: 1:1,2:114,3:3,4:1,5:2,7:5,9:2
+ 23166 multiletter control sequences out of 65536+600000
+ 14 fonts using 591999 bytes
+ 106i,1n,98p,337b,67s stack positions out of 5000i,500n,10000p,200000b,80000s
+/usr/local/texlive/2021/texmf-dist/tex/latex/jlreq/jlreq.cls:860:  ==> Fatal err
+or occurred, no output PDF file produced!
